@@ -1,3 +1,4 @@
+@import "./base.scss";
 .coolLink{
     position: relative;
     display: grid;
@@ -42,6 +43,7 @@
 }
 
 .coolButton {
+    animation: wiggle 2s linear infinite;
     position: relative;
     border: none;
     cursor: pointer;
@@ -66,9 +68,84 @@
         transition: clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55)
     }
     &:hover:before{
+        //background;
         clip-path: path(
             "M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z"
         );
     }
+    & span {
+        mix-blend-mode: difference;
+        font-weight: 500;
+    }
+    &:after {
+        content: "";
+        height: 85%;
+        width: 95%;
+        top: 6px;
+        border: 1px solid #fff;
+        border-radius: 58% 42% 55% 45% / 56% 45% 55% 44%;
+        transform: rotate(-20deg);
+        transition: transform 0.5s cubic-beizer(0.585, 2.5, 0.645, 0.55);
+    }
+    &:hover:after {
+        transform: translate3d(0, -5px, 0);
+    }
+    @media (max-width: 800px) {
+        & {
+            transform: scale3d(0.7, 0.7, 0.7);
+            font-size: 23px;
+        }
+    }
 
+    /* Animation property for WI */
+    /* Keyframes */
+    @keyframes wiggle {
+        0%, 7% {
+        transform: rotateZ(0);
+        }
+        15% {
+        transform: rotateZ(-15deg);
+        }
+        20% {
+        transform: rotateZ(10deg);
+        }
+        25% {
+        transform: rotateZ(-10deg);
+        }
+        30% {
+        transform: rotateZ(6deg);
+        }
+        35% {
+        transform: rotateZ(-4deg);
+        }
+        40%, 100% {
+        transform: rotateZ(0);
+        }
+    }
+}
+
+.coloredIcon {
+    color: #fff;
+    font-size: 35px;
+    &:hover {
+        animation: coloredIconAnimation 0.2s infinite;
+    }
+    @keyframes coloredIconAnimation {
+        0% {
+            text-shadow: 5px 4px $red-color, -5px -6px $blue-color;
+        }
+        25% {
+            text-shadow: -5px -6px $red-color, 5px 4px $blue-color;
+        }
+        50% {
+            text-shadow: 5px -4px $red-color, -8px 4px $blue-color;
+        }
+        75% {
+            text-shadow: -8px -4px $red-color, -5px -4px $blue-color;
+        }
+        100% {
+            text-shadow: -5px 0px $red-color, 5px -4px $blue-color;
+        }
+        
+    }
 }

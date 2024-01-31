@@ -583,7 +583,8 @@ var _baseScss = require("../styles/base.scss");
 var _loaderScss = require("../styles/loader.scss");
 var _landingScss = require("../styles/landing.scss");
 var _coolLinksScss = require("../styles/coolLinks.scss");
+var _skillsScss = require("../styles/skills.scss");
 
-},{"../styles/base.scss":"bjuoM","../styles/loader.scss":"lXoSv","../styles/landing.scss":"aircJ","../styles/coolLinks.scss":"g1uk7"}],"bjuoM":[function() {},{}],"lXoSv":[function() {},{}],"aircJ":[function() {},{}],"g1uk7":[function() {},{}]},["4i0lr","fxZy5"], "fxZy5", "parcelRequire2041")
+},{"../styles/base.scss":"bjuoM","../styles/loader.scss":"lXoSv","../styles/landing.scss":"aircJ","../styles/coolLinks.scss":"g1uk7","../styles/skills.scss":"1tR26"}],"bjuoM":[function() {},{}],"lXoSv":[function() {},{}],"aircJ":[function() {},{}],"g1uk7":[function() {},{}],"1tR26":[function() {},{}]},["4i0lr","fxZy5"], "fxZy5", "parcelRequire2041")
 
 //# sourceMappingURL=index.3edf765f.js.map
