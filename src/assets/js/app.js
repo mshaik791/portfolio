@@ -49,3 +49,4 @@ let barInterval = setInterval(() => {
 
 }, 20);
 
+
