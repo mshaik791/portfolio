@@ -63,7 +63,7 @@ section {
   width: 100%;
   height: 100vh;
   font-family: Orbitron, sans-serif;
-  display: none;
+  display: grid;
   position: fixed;
   inset: 0;
 }
@@ -262,6 +262,7 @@ section {
 }
 
 .landing .scrollDown {
+  z-index: 1;
   position: absolute;
   bottom: 3rem;
   left: 50%;
@@ -349,49 +350,32 @@ section {
   }
 }
 
-.landing .intro {
+.intro {
+  text-align: center;
   z-index: 2;
-  color: #fff;
-  width: 100%;
-  height: 60%;
-  font-family: Noir-et-Blanc, sans-serif;
+  width: 80%;
   position: absolute;
-  top: 20%;
-  left: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.landing .intro h4 {
+.intro h4, .intro h1 {
+  animation: 2s infinite flip;
+  animation-delay: calc(.2s * var(--i));
+  margin: 0;
   font-size: 33px;
 }
 
-.landing .intro h1 {
-  width: 93%;
-  padding-top: 1rem;
-  font-size: 35px;
+.intro h4 {
+  margin-bottom: 10px;
 }
 
-@media (width >= 600px) {
-  .landing .intro h4 {
-    font-size: 40px;
-  }
-
-  .landing .intro h1 {
-    font-size: 55px;
-  }
-}
-
-@media (width >= 1200px) {
-  .landing .intro {
-    left: 5%;
-  }
-
-  .landing .intro h4 {
-    font-size: 50px;
-  }
-
-  .landing .intro h1 {
-    font-size: 70px;
-  }
+.word {
+  color: #fff;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  margin: auto;
+  font: 700 2.5em tahoma;
 }
 
 .centered_link {

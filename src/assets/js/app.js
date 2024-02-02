@@ -38,7 +38,7 @@ let barInterval = setInterval(() => {
             duration: 2,
             zIndex:1,
             background: 'transparent',
-            opacity: 0.5,
+            opacity: 0,
         });
         gsap.to(".loading__svg", {
             delay: 2,
@@ -48,5 +48,20 @@ let barInterval = setInterval(() => {
     }
 
 }, 20);
+
+
+var words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+
+
+
+
 
 
