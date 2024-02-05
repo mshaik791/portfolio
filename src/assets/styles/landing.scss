@@ -1,5 +1,9 @@
 .landing {
     position: relative;
+    //font-family: "Rubik Maps", system-ui;
+    font-family: 'Forum', sans-serif;
+    font-weight: 300;
+    font-style: normal;
     width: 100%;
     height: 100vh;
     background: #111;
@@ -186,6 +190,7 @@
 }
 
 .intro {
+    font-family: 'Forum', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -193,32 +198,90 @@
     width: 80%; /* Adjust width as needed */
     text-align: center;
     z-index: 2;
+    
 }
 
 .intro h4, .intro h1 {
+    font-family: 'Forum', sans-serif;
+    font-weight: bold;
+    //font-family: "Protest Strike", sans-serif;
+    //font-weight: 400;
+    font-style: normal;
+   
+
     margin: 0; /* Remove default margin */
-    font-size: 33px;
+    font-size: 40px;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
     //animation: float 6s ease-in-out infinite;
 }
 
 .intro h4 {
+    font-size: 25px;
     margin-bottom: 10px; /* Add spacing between the sentences */
+    text-transform: uppercase;
+
+    
+    // -webkit-background-clip: text;
+    // color: transparent;
+    // background-clip: text;
+    // background-size: 400%;
+    // animation: move 5s ease infinite;
+    // background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgba(229,109,212,1) 48.9%, rgba(255,68,128,1) 68.2%, rgba(255,94,0,1) 86.4% );
+
    // animation: float 6s ease-in-out infinite;
 }
+
+.intro h1 {
+   //animation: glitch 1s linear infinite;
+   text-transform: uppercase;
+    
+
+}
+
+.intro h3 {
+
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+}
+
+@keyframes move {
+    0%,100%{
+        background-position: 200% 0%;
+    }
+
+    50%{
+        background-position: 0% 200%;
+    }
+}
+
+@keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+
+
+  
+ 
 // @keyframes flip {
 //     0%,80% {
 //       transform: rotateY(360deg) 
 //     }
 //   }
 
-.word {
-    margin: auto;
-    color: white;
-    font: 700 normal 2.5em 'tahoma';
-    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-  }
+
 
 // @keyframes float {
 //     0% {

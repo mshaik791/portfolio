@@ -50,15 +50,17 @@ let barInterval = setInterval(() => {
 }, 20);
 
 
-var words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'],
-    part,
-    i = 0,
-    offset = 0,
-    len = words.length,
-    forwards = true,
-    skip_count = 0,
-    skip_delay = 15,
-    speed = 70;
+setTimeout(function(){
+    var landing = document.querySelector('#loading');
+    if(loading) {
+        loading.style.display = 'none';
+    }
+}, 5000); // 5000 milliseconds = 5 seconds
+
+
+
+
+
 
 
 

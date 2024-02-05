@@ -31758,10 +31758,10 @@ var _213Png = require("../images/loaders/shapes/213.png");
 var _213PngDefault = parcelHelpers.interopDefault(_213Png);
 var _220Jpg = require("../images/loaders/shapes/220.jpg");
 var _220JpgDefault = parcelHelpers.interopDefault(_220Jpg);
-var _pic1Png = require("../images/pics/pic1.png");
-var _pic1PngDefault = parcelHelpers.interopDefault(_pic1Png);
-var _pic2Png = require("../images/pics/pic2.png");
-var _pic2PngDefault = parcelHelpers.interopDefault(_pic2Png);
+var _pic1Jpg = require("../images/pics/pic1.jpg");
+var _pic1JpgDefault = parcelHelpers.interopDefault(_pic1Jpg);
+var _pic2Jpg = require("../images/pics/pic2.jpg");
+var _pic2JpgDefault = parcelHelpers.interopDefault(_pic2Jpg);
 var _pic3Png = require("../images/pics/pic3.png");
 var _pic3PngDefault = parcelHelpers.interopDefault(_pic3Png);
 var _pic5Png = require("../images/pics/pic5.png");
@@ -31777,8 +31777,8 @@ const images = {
     bg4: (0, _44JpgDefault.default),
     bg5: (0, _213PngDefault.default),
     bg6: (0, _220JpgDefault.default),
-    me1: (0, _pic1PngDefault.default),
-    me2: (0, _pic2PngDefault.default),
+    me1: (0, _pic1JpgDefault.default),
+    me2: (0, _pic2JpgDefault.default),
     me3: (0, _pic3PngDefault.default),
     me4: (0, _pic5PngDefault.default),
     me5: (0, _pic4PngDefault.default),
@@ -31786,7 +31786,7 @@ const images = {
 };
 exports.default = images;
 
-},{"../images/loaders/shapes/19.jpg":"b4Bkh","../images/loaders/shapes/24.jpg":"jwKvA","../images/loaders/shapes/26.jpg":"P5DDV","../images/loaders/shapes/44.jpg":"XgqJl","../images/loaders/shapes/213.png":"d4dx2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../images/pics/pic1.png":"8pg4z","../images/pics/pic2.png":"auEH6","../images/pics/pic3.png":"lKM7B","../images/pics/pic4.png":"2Ac3j","../images/pics/pic5.png":"5Rfhv","../images/pics/pic6.png":"57ID6","../images/loaders/shapes/220.jpg":"kybyy"}],"b4Bkh":[function(require,module,exports) {
+},{"../images/loaders/shapes/19.jpg":"b4Bkh","../images/loaders/shapes/24.jpg":"jwKvA","../images/loaders/shapes/26.jpg":"P5DDV","../images/loaders/shapes/44.jpg":"XgqJl","../images/loaders/shapes/213.png":"d4dx2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../images/pics/pic3.png":"lKM7B","../images/pics/pic4.png":"2Ac3j","../images/pics/pic5.png":"5Rfhv","../images/pics/pic6.png":"57ID6","../images/loaders/shapes/220.jpg":"kybyy","../images/pics/pic1.jpg":"9IGTT","../images/pics/pic2.jpg":"bQdbp"}],"b4Bkh":[function(require,module,exports) {
 module.exports = require("aeeae44639f9c552").getBundleURL("8u1JD") + "19.8f858bac.jpg" + "?" + Date.now();
 
 },{"aeeae44639f9c552":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -31836,13 +31836,7 @@ module.exports = require("e489ab886acb4afe").getBundleURL("8u1JD") + "44.9a7af34
 },{"e489ab886acb4afe":"lgJ39"}],"d4dx2":[function(require,module,exports) {
 module.exports = require("ad31e9221391c50d").getBundleURL("8u1JD") + "213.905af0a6.png" + "?" + Date.now();
 
-},{"ad31e9221391c50d":"lgJ39"}],"8pg4z":[function(require,module,exports) {
-module.exports = require("fdc120405351f523").getBundleURL("8u1JD") + "pic1.699a7f82.png" + "?" + Date.now();
-
-},{"fdc120405351f523":"lgJ39"}],"auEH6":[function(require,module,exports) {
-module.exports = require("baa31de0b616d972").getBundleURL("8u1JD") + "pic2.12ee603a.png" + "?" + Date.now();
-
-},{"baa31de0b616d972":"lgJ39"}],"lKM7B":[function(require,module,exports) {
+},{"ad31e9221391c50d":"lgJ39"}],"lKM7B":[function(require,module,exports) {
 module.exports = require("a7c1a02b294249de").getBundleURL("8u1JD") + "pic3.e77acd58.png" + "?" + Date.now();
 
 },{"a7c1a02b294249de":"lgJ39"}],"2Ac3j":[function(require,module,exports) {
@@ -31857,7 +31851,13 @@ module.exports = require("522ce0b96309b34b").getBundleURL("8u1JD") + "pic6.52a64
 },{"522ce0b96309b34b":"lgJ39"}],"kybyy":[function(require,module,exports) {
 module.exports = require("626c92992a76adbf").getBundleURL("8u1JD") + "220.4a29e4e3.jpg" + "?" + Date.now();
 
-},{"626c92992a76adbf":"lgJ39"}],"dbYI8":[function(require,module,exports) {
+},{"626c92992a76adbf":"lgJ39"}],"9IGTT":[function(require,module,exports) {
+module.exports = require("9def58276ed422a4").getBundleURL("8u1JD") + "pic1.0b674297.jpg" + "?" + Date.now();
+
+},{"9def58276ed422a4":"lgJ39"}],"bQdbp":[function(require,module,exports) {
+module.exports = require("ef5f3f9165d69e5c").getBundleURL("8u1JD") + "pic2.3fc57130.jpg" + "?" + Date.now();
+
+},{"ef5f3f9165d69e5c":"lgJ39"}],"dbYI8":[function(require,module,exports) {
 module.exports = "#define GLSLIFY 1\nuniform sampler2D uTexture;\nuniform vec2 uOffset;\nvarying vec2 vUv;\n\nfloat M_PI = 3.141529;\n\nvec3 deformationCurve(vec3 position, vec2 uv, vec2 offset){\n    position.x = position.x + (sin(uv.y * M_PI) * offset.x);\n    position.y = position.y + (sin(uv.x * M_PI) * offset.y);\n    return position;\n}\n\nvoid main(){\n    vUv = uv;\n    vec3 newPosition = deformationCurve(position, uv, uOffset);\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(newPosition, 1.0) * 0.9;\n}";
 
 },{}],"chkwe":[function(require,module,exports) {

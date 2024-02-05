@@ -1,5 +1,6 @@
 @import "./base.scss";
 .coolLink{
+    //font-family: 'Forum', sans-serif;
     position: relative;
     display: grid;
     place-items: center;
@@ -43,6 +44,9 @@
 }
 
 .coolButton {
+    span {
+        font-family: 'Forum', sans-serif;
+    }
     animation: wiggle 2s linear infinite;
     position: relative;
     border: none;
@@ -125,6 +129,7 @@
 }
 
 .coloredIcon {
+    //font-family: 'Forum', sans-serif;
     color: #fff;
     font-size: 35px;
     &:hover {
@@ -251,4 +256,8 @@
             transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
         }
     }
+}
+
+.description {
+    font-family: 'Forum', sans-serif;
 }

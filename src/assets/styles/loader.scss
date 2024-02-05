@@ -1,5 +1,6 @@
 .loading {
-    //display: none;
+    display: none;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -9,7 +10,7 @@
     width: 100%;
     z-index: 99;
     background: #000;
-    display: grid;
+    //display: grid;
     place-items: center;
     font-family: "Orbitron", sans-serif;
     &__box {
